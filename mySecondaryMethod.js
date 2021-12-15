@@ -17,7 +17,7 @@ function checked() {
   }
   alert("This is a Palindrome");
 }
-*/
+
 
 // palindrome re checking remember it:
 
@@ -35,3 +35,24 @@ const checkPalindrome = () => {
 };
 
 checkPalindrome();
+
+*/
+
+// palindrome re checking remember it:
+
+const imputText = prompt("Please add any text: ");
+const imputTextAmount = imputText.length;
+const imputTextAmountdivided = imputTextAmount / 2;
+
+const checkPalindrome2 = () => {
+  for (let i = 0; i < imputTextAmountdivided; i++) {
+    if (imputText[i] !== imputText[imputTextAmount - 1 - i]) {
+      alert("This is not a palindrome");
+      return false;
+    }
+  }
+  alert("This is a palindrome");
+  return true;
+};
+
+checkPalindrome2();
