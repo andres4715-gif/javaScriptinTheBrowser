@@ -2,3 +2,4 @@
 
 // first test:
 // from master
+// from newPalindrome
