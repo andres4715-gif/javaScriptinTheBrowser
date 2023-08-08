@@ -1,6 +1,6 @@
 // this is my practice for palindrome feature
 
-const text = "123328";
+const text = "123321";
 const amountComplete = text.length;
 const half = amountComplete / 2;
 
@@ -13,4 +13,4 @@ const palindrome = () => {
   }
 };
 
-console.log(palindrome());
+console.log(`Is it a palindrome?: ${palindrome()}`);
