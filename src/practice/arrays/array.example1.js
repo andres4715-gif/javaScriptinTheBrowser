@@ -1,21 +1,5 @@
 /*
 
-// comprobar si existe un dato en un array
-
-let index2;
-const myArray = ["Andres", "Sebastian", "Carlos"];
-
-function checkNames() {
-  myArray.push("noa");
-  console.log("The array is: ", myArray.length);
-  index2 = myArray.find((element) => element === "Andres");
-  if (index2 === "Andres") {
-    console.log("this is the name that I need");
-  }
-}
-
-checkNames();
-
 const groceries = [
   { productName: "apples", quantity: 4 },
   { productName: "oranges", quantity: 6 },
