@@ -35,9 +35,9 @@ Example:
 $ node array.example2.js
 ```
 
-## Practica de Arrays: 
+# Practicing: 
 
-- [ ] Union de varios arrays
-- [x] Venus
+## Arrays: 
 
-
+- [ ] Union
+- [x] Union
