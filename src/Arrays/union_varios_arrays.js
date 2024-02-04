@@ -19,22 +19,22 @@ const union = () => {
   const uniendo = [...leyedoMyArray1, ...leyedoMyArray2];
   return uniendo;
 };
-console.log("Practica 1");
+console.log("\nPractica 1\n");
 console.log(union());
 
-// ____________________
+// <-- Final part -->> 
 
 // practice 2
 
 const laUnion = [...myArray1, ...myArray2, ...myArray3]; 
-console.log("Practica 2");
+console.log("\nPractica 2\n");
 console.log(laUnion); 
 
-// ____________________
+// <-- Final part -->> 
 
 // practice 3
 
 
 
-// ____________________
+// <-- Final part -->> 
 
