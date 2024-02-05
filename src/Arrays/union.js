@@ -1,3 +1,10 @@
+/* Apply this method with all type of data
+- array
+- Object
+- String
+- Number
+ */
+
 // practice 1
 const myArray1 = [1, 2, 3, 4, 5, 6];
 const myArray2 = [7, 8, 9, 10, 11, 12];

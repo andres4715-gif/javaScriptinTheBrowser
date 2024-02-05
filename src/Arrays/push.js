@@ -1,3 +1,11 @@
+/* Apply this method with all type of data
+- array
+- Object
+- String
+- Number
+ */
+
+
 console.log("--- Practicing push");
 const myArray = [1, 2, 3];
 myArray.push(5, 7, 8);
