@@ -69,23 +69,19 @@ console.log("--- The sorted fruits: ", fruits);
 
 // practice 11
 console.log('*** Practice11 sort() - numbers - Mutable;');
-const numbers = [4, 2, 1, 3]; 
-numbers.sort(); 
-console.log("--- The sorted numbers: ", numbers); 
-// <-- Final part -->> 
-
-// practice 12
-console.log('*** Practice12 sort() - numbers - Mutable;');
 const arr = [40, 1, 15, 200, 2];
 arr.sort((a, b) => a - b);
 console.log("--- Sorted number by function: ", arr);
 // <-- Final part -->> 
 
-// practice 13
-console.log('*** Practice13 backward sort() - numbers - Mutable;');
+// practice 12
+console.log('*** Practice12 backward sort() - numbers - Mutable;');
 const myArray2 = [1, 4, 200, 3000]; 
 const result2 = myArray2.sort((a, b) => b - a); 
 console.log("--- The backward sort array is:", result2); 
+// <-- Final part -->> 
+
+// practice 13
 // <-- Final part -->> 
 
 // practice 14
