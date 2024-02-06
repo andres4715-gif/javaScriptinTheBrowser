@@ -55,10 +55,57 @@ console.log('--- The array contains the element true or false: ', getTrueOrFalse
 // <-- Final part -->> 
 
 // practice 9
-console.log('*** Practice8 every() - No Mutable;');
+console.log('*** Practice9 every() - No Mutable;');
 const checkEvery = array4.every(findEvery => findEvery + 2 === 7); 
 console.log("--- Every element on the array has the same result: ", checkEvery); 
 // <-- Final part -->> 
 
 // practice 10
+console.log('*** Practice10 sort() - string - Mutable;');
+const fruits = ["Apple", "Orange", "Melon", "Banana"]; 
+fruits.sort(); 
+console.log("--- The sorted fruits: ", fruits); 
 // <-- Final part -->> 
+
+// practice 11
+console.log('*** Practice11 sort() - numbers - Mutable;');
+const numbers = [4, 2, 1, 3]; 
+numbers.sort(); 
+console.log("--- The sorted numbers: ", numbers); 
+// <-- Final part -->> 
+
+// practice 12
+console.log('*** Practice12 sort() - numbers - Mutable;');
+const arr = [40, 1, 15, 200, 2];
+arr.sort((a, b) => a - b);
+console.log("--- Sorted number by function: ", arr);
+// <-- Final part -->> 
+
+// practice 13
+console.log('*** Practice13 backward sort() - numbers - Mutable;');
+const myArray2 = [1, 4, 200, 3000]; 
+const result2 = myArray2.sort((a, b) => b - a); 
+console.log("--- The backward sort array is:", result2); 
+// <-- Final part -->> 
+
+// practice 14
+// <-- Final part -->> 
+
+// practice 15
+// <-- Final part -->> 
+
+// practice 16
+// <-- Final part -->> 
+
+// practice 17
+// <-- Final part -->> 
+
+// practice 18
+// <-- Final part -->> 
+
+// practice 19
+// <-- Final part -->> 
+
+// practice 20
+// <-- Final part -->> 
+
