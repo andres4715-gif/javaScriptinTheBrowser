@@ -82,6 +82,11 @@ console.log("--- The backward sort array is:", result2);
 // <-- Final part -->> 
 
 // practice 13
+console.log('*** Practice13 includes()- No Mutable;');
+const content = [1, 3, 5, 67, 76, 9]; 
+const myResponse = content.includes("Andres"); 
+const myResponse2 = content.includes(9); 
+console.log("--- The array includes the element?: ", myResponse, " and include de second data?: ", myResponse2);
 // <-- Final part -->> 
 
 // practice 14
