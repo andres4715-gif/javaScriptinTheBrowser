@@ -97,6 +97,13 @@ console.log("--- The new array after applying slice is: ", myArraySlice); // [1,
 // <-- Final part -->> 
 
 // practice 15
+console.log("*** Practice15 reduce()- No Mutable;");
+const myReduceData = [1, 2, 3, 4, 6];
+const myDataReduce = myReduceData.reduce((acc, item) => {
+  acc = acc + item;
+  return acc;
+}, 0);
+console.log("--- The reduce data is: ", myDataReduce);
 // <-- Final part -->> 
 
 // practice 16
