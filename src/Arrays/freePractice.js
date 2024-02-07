@@ -90,6 +90,10 @@ console.log("--- The array includes the element?: ", myResponse, " and include d
 // <-- Final part -->> 
 
 // practice 14
+console.log('*** Practice14 slice()- No Mutable;');
+const contentSlice = [1, 3, 5, 67, 76, 9]; 
+const myArraySlice = contentSlice.slice(0, 3); 
+console.log("--- The new array after applying slice is: ", myArraySlice); // [1, 3, 5]; 
 // <-- Final part -->> 
 
 // practice 15
