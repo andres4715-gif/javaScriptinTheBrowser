@@ -109,19 +109,42 @@ console.log("--- The reduce data is: ", myDataReduce);
 // practice 16
 console.log("*** Practice16 indexOf()- No Mutable;");
 const myIndexOfData = [1, 2, 3, 4, 6];
-
-
+const checkIndexOf = myIndexOfData.indexOf(4)
+console.log("--- The indexOf data is: ", checkIndexOf); 
 // <-- Final part -->> 
 
 // practice 17
+console.log("*** Practice17 lastIndexOf()- No Mutable;");
+const myLastIndexOfData = [1, 2, 3, 4, 6, 4, 56, 4, 67, 4];
+const checkLastIndexOf = myLastIndexOfData.lastIndexOf(4);
+console.log("--- The lastindexOf data is: ", checkLastIndexOf); 
 // <-- Final part -->> 
 
 // practice 18
+console.log("*** Practice18 lastIndexOf()- No Mutable;");
+const myLastIndexOfDataString = ["Andres", "Liliana", "Daniel"];
+const checkLastIndexOfString = myLastIndexOfDataString.lastIndexOf("Daniel");
+console.log("--- The lastindexOfString data is: ", checkLastIndexOfString); 
 // <-- Final part -->> 
 
 // practice 19
+console.log("*** Practice19 concat()- No Mutable;");
+const myConcatData1 = [1, 2, 3];
+const myConcatData2 = [4, 6];
+const myConcatUnion = myConcatData1.concat(myConcatData2); 
+console.log("--- The concat result is: ", myConcatUnion); 
 // <-- Final part -->> 
 
 // practice 20
+console.log("*** Practice20 toString- No Mutable;");
+const myToString = [1, 2, 3];
+const myToStringData = myToString.toString(); 
+console.log("--- The toString result is ", myToStringData); 
+console.log("--- The original array is: ", myToString); 
+console.log("--- The variable type is ", typeof(myToStringData)); 
 // <-- Final part -->> 
 
+// practice 21
+//TODO CHECK HOW CAN GET THE BACKWART ARRAY RESULT IN IMPERATIVE WAY
+// <-- Final part -->> 
+ 
