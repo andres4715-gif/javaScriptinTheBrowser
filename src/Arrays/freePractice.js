@@ -147,4 +147,16 @@ console.log("--- The variable type is ", typeof(myToStringData));
 // practice 21
 //TODO CHECK HOW CAN GET THE BACKWART ARRAY RESULT IN IMPERATIVE WAY
 // <-- Final part -->> 
+
+// practice 22
+console.log("*** Practice22 High Order Functions;");
+const getData = () => {
+  return "functions";
+};
+const sayHello = getData();
+console.log("--- The obtained data from High Order Functions: ", sayHello);
+// <-- Final part -->> 
+
+// practice 23
+// <-- Final part -->> 
  
