@@ -107,6 +107,10 @@ console.log("--- The reduce data is: ", myDataReduce);
 // <-- Final part -->> 
 
 // practice 16
+console.log("*** Practice16 indexOf()- No Mutable;");
+const myIndexOfData = [1, 2, 3, 4, 6];
+
+
 // <-- Final part -->> 
 
 // practice 17
