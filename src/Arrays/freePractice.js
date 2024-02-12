@@ -145,7 +145,12 @@ console.log("--- The variable type is ", typeof(myToStringData));
 // <-- Final part -->> 
 
 // practice 21
-//TODO CHECK HOW CAN GET THE BACKWART ARRAY RESULT IN IMPERATIVE WAY
+console.log("*** Practice21 toString- No Mutable;");
+const myToString2 = ["Andres", "Rios", "Montoya"];
+const myToStringData2 = myToString2.toString(); 
+console.log("--- The toString result is ", myToStringData2); 
+console.log("--- The original array is: ", myToString2); 
+console.log("--- The variable type is ", typeof(myToStringData2)); 
 // <-- Final part -->> 
 
 // practice 22
