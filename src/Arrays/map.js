@@ -63,11 +63,15 @@ console.log(getObject);
 console.log("Person with higher age is: ", getObject.firstName, " with age: ", getObject.age); 
 // <-- Final part -->> 
 
-// practice 5
+// practice 6
 console.log("*** Practice6: get person with less children;");
 const arrayChildren = data.map(a => a.children); 
 const arrayLessNumber = arrayChildren.sort((a, b) => a - b); 
 const lessNumber = arrayLessNumber.shift(); 
 const gettingData = data.find(a => a.children === lessNumber); 
 console.log("Person with less number of children is: ", gettingData.firstName, " with ", gettingData.children, " children");
+// <-- Final part -->> 
+
+// practice 7
+// todo check how destructuring works in arrays and objects: 
 // <-- Final part -->> 
