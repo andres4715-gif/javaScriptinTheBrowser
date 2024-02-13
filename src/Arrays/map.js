@@ -62,7 +62,11 @@ console.log(
 // <-- Final part -->>
 
 // practice 7
-// TODO check how destructuring works in arrays and objects:
+console.log("*** Destructuring;");
+const getWoman = family.filter(a => a.gender === "F"); 
+console.log("--- The obtained woman is: ", getWoman); 
+const {firstName, gender, age} = getWoman[0]; 
+console.log("--- The woman name is, ", firstName, " with gender: ", gender, " and ", age, " years old");
 // <-- Final part -->>
 
 // practice 8
