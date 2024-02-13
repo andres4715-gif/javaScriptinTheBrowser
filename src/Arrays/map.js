@@ -5,7 +5,7 @@
 - Number
  */
 
-import { family } from "./data.js";
+import { family } from "../../data/data.js";
 
 // practice 1
 console.log("*** Practice1: Get any element using arrays to get this data;");
