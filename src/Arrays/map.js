@@ -63,10 +63,18 @@ console.log(
 
 // practice 7
 console.log("*** Destructuring;");
-const getWoman = family.filter(a => a.gender === "F"); 
-console.log("--- The obtained woman is: ", getWoman); 
-const {firstName, gender, age} = getWoman[0]; 
-console.log("--- The woman name is, ", firstName, " with gender: ", gender, " and ", age, " years old");
+const getWoman = family.filter((a) => a.gender === "F");
+console.log("--- The obtained woman is: ", getWoman);
+const { firstName, gender, age } = getWoman[0];
+console.log(
+  "--- The woman name is, ",
+  firstName,
+  " with gender: ",
+  gender,
+  " and ",
+  age,
+  " years old"
+);
 // <-- Final part -->>
 
 // practice 8
@@ -81,10 +89,10 @@ console.log("--- The sum of the ages: ", getDataAge);
 
 // practice 8
 console.log("*** Practice9: Get result for gender;");
-const getGender = family.filter(a => a.gender === "M")
+const getGender = family.filter((a) => a.gender === "M");
 console.log("--- The man of the family are: ", getGender);
-const getNamesWithNames = getGender.map(a => a.firstName); 
+const getNamesWithNames = getGender.map((a) => a.firstName);
 console.log(getNamesWithNames);
-const join = getNamesWithNames.join(", "); 
+const join = getNamesWithNames.join(", ");
 console.log("--- The men of the family are:", join);
 // <-- Final part -->>
