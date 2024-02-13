@@ -74,3 +74,13 @@ const getDataAge = getAge.reduce((cct, item) => {
 }, 0);
 console.log("--- The sum of the ages: ", getDataAge);
 // <-- Final part -->>
+
+// practice 8
+console.log("*** Practice9: Get result for gender;");
+const getGender = family.filter(a => a.gender === "M")
+console.log("--- The man of the family are: ", getGender);
+const getNamesWithNames = getGender.map(a => a.firstName); 
+console.log(getNamesWithNames);
+const join = getNamesWithNames.join(", "); 
+console.log("--- The men of the family are:", join);
+// <-- Final part -->>
