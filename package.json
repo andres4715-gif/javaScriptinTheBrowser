@@ -1,6 +1,7 @@
 {
   "name": "javascriptinthebrowser",
   "version": "1.0.0",
+  "type": "module",
   "description": "practice",
   "main": "index.js",
   "scripts": {
