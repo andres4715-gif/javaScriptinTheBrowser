@@ -22,5 +22,13 @@ export const family = [
         children: 1, 
         gender: "F",
         phone: 123456786, 
+    },
+    {
+        firstName: "Nikol",
+        lastName: "Rios", 
+        age: 15, 
+        children: 0, 
+        gender: "F",
+        phone: 898123234, 
     }
 ]

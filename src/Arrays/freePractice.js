@@ -156,12 +156,16 @@ console.log("--- The variable type is ", typeof(myToStringData2));
 // practice 22
 console.log("*** Practice22 High Order Functions;");
 const getData = () => {
-  return "functions";
+  return "functions is my life";
 };
 const sayHello = getData();
 console.log("--- The obtained data from High Order Functions: ", sayHello);
 // <-- Final part -->> 
 
 // practice 23
+const checkFunction = function(name) {
+  console.log("---- Hi, I am here and my name is, ", name)
+}
+checkFunction("Andres");
 // <-- Final part -->> 
  
