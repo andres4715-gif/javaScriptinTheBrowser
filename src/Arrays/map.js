@@ -1,4 +1,4 @@
-/* Apply this method with all type of data
+/* Apply this method with all type of family
 - array
 - Object
 - String
@@ -8,22 +8,22 @@
 import { family } from "../../data/data.js";
 
 // practice 1
-console.log("*** Practice1: Get any element using arrays to get this data;");
+console.log("*** Practice1: Get any element using arrays to get this family;");
 const names = family.map((name) => name.firstName);
 console.log(names);
 // <-- Final part -->>
 
 // practice 2
-console.log("*** Practice2: Get just one data;");
+console.log("*** Practice2: Get just one family;");
 family[0].children === 0
   ? console.log(family[0].firstName)
-  : console.log("No data to display");
+  : console.log("No family to display");
 // <-- Final part -->>
 
 // practice 3
-console.log("*** Practice3: Getting the first data on the object;");
-const firstData = family[0];
-console.log(firstData.age);
+console.log("*** Practice3: Getting the first family on the object;");
+const firstFamily = family[0];
+console.log(firstFamily.age);
 // <-- Final part -->>
 
 // practice 4
@@ -51,12 +51,12 @@ console.log("*** Practice6: get person with less children;");
 const arrayChildren = family.map((a) => a.children);
 const arrayLessNumber = arrayChildren.sort((a, b) => a - b);
 const lessNumber = arrayLessNumber.shift();
-const gettingData = family.find((a) => a.children === lessNumber);
+const gettingFamily = family.find((a) => a.children === lessNumber);
 console.log(
   "--- Person with less number of children is: ",
-  gettingData.firstName,
+  gettingFamily.firstName,
   " with ",
-  gettingData.children,
+  gettingFamily.children,
   " children"
 );
 // <-- Final part -->>
@@ -81,10 +81,10 @@ console.log(
 console.log("*** Practice8: Get the sum of the ages;");
 const getAge = family.map((a) => a.age);
 console.log(getAge);
-const getDataAge = getAge.reduce((cct, item) => {
+const getFamilyAge = getAge.reduce((cct, item) => {
   return (cct = cct + item);
 }, 0);
-console.log("--- The sum of the ages: ", getDataAge);
+console.log("--- The sum of the ages: ", getFamilyAge);
 // <-- Final part -->>
 
 // practice 8

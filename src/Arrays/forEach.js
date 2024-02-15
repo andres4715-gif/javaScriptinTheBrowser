@@ -5,13 +5,13 @@
 - Number
  */
 
-import { family } from "../../data/object.js";
+import { savings } from "../../data/object.js";
 
 // practice 1
 console.log("*** filter1;");
-const adults = family.brothers.filter((a) => a.age > 18);
+const adults = savings.brothers.filter((a) => a.age > 18);
 console.log(adults);
-const check = family.status === "Active" ? true:false;
+const check = savings.status === "Active" ? true:false;
 console.log("Availability service:", check); 
 adults.forEach(a => {
     console.log("- Name:", a.firstName, a.lastName, "with age ", a.age);
