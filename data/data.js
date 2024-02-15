@@ -6,6 +6,7 @@ export const family = [
         children: 0, 
         gender: "M",
         phone: 9898787654, 
+        savings: 100
     }, 
     {
         firstName: "Daniel",
@@ -14,6 +15,7 @@ export const family = [
         children: 2, 
         gender: "M",   
         phone: 123123123, 
+        savings: 100
     }, 
     {
         firstName: "Liliana",
@@ -22,6 +24,7 @@ export const family = [
         children: 1, 
         gender: "F",
         phone: 123456786, 
+        savings: 100
     },
     {
         firstName: "Nikol",
@@ -30,5 +33,6 @@ export const family = [
         children: 0, 
         gender: "F",
         phone: 898123234, 
+        savings: 100
     }
 ]
