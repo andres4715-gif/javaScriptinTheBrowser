@@ -1,6 +1,5 @@
 const savings = {
-  name: "all_data",
-  status: "Active",
+
   brothers: [
     {
       firstName: "andres",
@@ -41,7 +40,7 @@ const savings = {
         {
           firstName: "juan", 
           location: "la union",
-          children: 2,
+          children: 0,
           savings: 40
         },
       ] 
