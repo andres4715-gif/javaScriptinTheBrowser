@@ -1,4 +1,4 @@
-export const savings = {
+const savings = {
   name: "all_data",
   status: "Active",
   brothers: [
@@ -13,12 +13,14 @@ export const savings = {
         {
           firstName: "oscar", 
           location: "la estrella",
-          children: 1
+          children: 1, 
+          savings: 10
         }, 
         {
           firstName: "pedro", 
           location: "santa fe",
-          children: 3
+          children: 3,
+          savings: 20
         },
       ] 
     },
@@ -33,12 +35,14 @@ export const savings = {
         {
           firstName: "gladis", 
           location: "la milagrosa",
-          children: 3
+          children: 3,
+          savings: 30
         }, 
         {
           firstName: "juan", 
           location: "la union",
-          children: 2
+          children: 2,
+          savings: 40
         },
       ] 
     },
@@ -53,12 +57,14 @@ export const savings = {
         {
           firstName: "sandra", 
           location: "santa elena",
-          children: 1
+          children: 1, 
+          savings: 50
         }, 
         {
           firstName: "monica", 
           location: "new york",
-          children: 1
+          children: 1,
+          savings: 60
         },
       ] 
     },
@@ -75,14 +81,18 @@ export const savings = {
         {
           firstName: "carmen", 
           location: "la estrella",
-          children: 3
+          children: 3,
+          savings: 70
         }, 
         {
           firstName: "yolanda", 
           location: "canada",
-          children: 2
+          children: 2,
+          savings: 80
         },
       ] 
     },
   ],
 };
+
+export default savings
