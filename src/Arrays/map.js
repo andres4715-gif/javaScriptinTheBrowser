@@ -6,6 +6,7 @@
  */
 
 import { family } from "../../data/data.js";
+import { setting } from "../../data/settings.js";
 
 // practice 1
 console.log("*** Practice1: Get any element using arrays to get this family;");
@@ -96,3 +97,17 @@ console.log(getNamesWithNames);
 const join = getNamesWithNames.join(", ");
 console.log("--- The men of the family are:", join);
 // <-- Final part -->>
+
+// settings
+const changeStatusEnableSettings = setting => {
+  setting.value = "false";
+  return setting
+}
+
+const filterEnableSetting = setting => {
+return setting.value === "true";
+}
+
+const changeProperty = setting.filter(filterEnableSetting).map(changeStatusEnableSettings);
+console.log(changeProperty);
+
